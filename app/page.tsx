@@ -1,3 +1,5 @@
+export const dynamic = 'force-dynamic'
+  
 import { createServerSupabaseClient } from '@/lib/supabase/server'
 import { ProductGrid } from '@/components/products/ProductGrid'
 import { Button } from '@/components/ui/button'
