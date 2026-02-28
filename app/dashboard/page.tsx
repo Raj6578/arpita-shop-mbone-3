@@ -10,20 +10,7 @@ import { Label } from '@/components/ui/label'
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs'
 import { Badge } from '@/components/ui/badge'
 import { Separator } from '@/components/ui/separator'
-import { 
-  User, 
-  MapPin, 
-  ShoppingCart, 
-  Package, 
-  Heart, 
-  Wallet, 
-  Bell,
-  Edit,
-  Save,
-  X,
-  Plus,
-  Users
-} from 'lucide-react'
+import { User, MapPin, ShoppingCart, Package, Heart, Wallet, Bell, CreditCard as Edit, Save, X, Plus, Users } from 'lucide-react'
 import { toast } from 'sonner'
 import { UserListModal } from '@/components/dashboard/UserListModal'
 import { NotificationPanel } from '@/components/dashboard/NotificationPanel'
