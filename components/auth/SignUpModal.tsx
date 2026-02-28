@@ -122,7 +122,7 @@ export function SignUpModal({ open, onOpenChange, onSwitchToSignIn }: SignUpModa
       <DialogContent className="sm:max-w-4xl p-0 overflow-hidden">
         <div className="flex h-[700px]">
           {/* Left Side - Image */}
-          <div className="hidden md:flex md:w-1/2 bg-gradient-to-br from-brand-accent to-brand-highlight relative">
+          <div className="hidden md:flex md:w-1/2 bg-gradient-to-br from-green-100 to-green-200 relative">
             <div className="absolute inset-0 bg-black/20" />
             <Image
               src="https://images.pexels.com/photos/437037/pexels-photo-437037.jpeg?auto=compress&cs=tinysrgb&w=800"
@@ -130,7 +130,7 @@ export function SignUpModal({ open, onOpenChange, onSwitchToSignIn }: SignUpModa
               fill
               className="object-cover"
             />
-            <div className="relative z-10 flex flex-col justify-center items-center text-white p-8">
+            <div className="relative z-10 flex flex-col justify-center items-center text-gray-800 p-8">
               <div className="text-center">
                 <h2 className="text-3xl font-bold mb-4">Join ModernMart!</h2>
                 <p className="text-lg opacity-90">

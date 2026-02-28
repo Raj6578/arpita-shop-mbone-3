@@ -52,7 +52,7 @@ export function ForgotPasswordModal({ open, onOpenChange, onSwitchToSignIn }: Fo
       <DialogContent className="sm:max-w-4xl p-0 overflow-hidden">
         <div className="flex h-[500px]">
           {/* Left Side - Image */}
-          <div className="hidden md:flex md:w-1/2 bg-gradient-to-br from-brand-secondary to-brand-primary relative">
+          <div className="hidden md:flex md:w-1/2 bg-gradient-to-br from-purple-100 to-purple-200 relative">
             <div className="absolute inset-0 bg-black/20" />
             <Image
               src="https://images.pexels.com/photos/4553618/pexels-photo-4553618.jpeg?auto=compress&cs=tinysrgb&w=800"
@@ -60,7 +60,7 @@ export function ForgotPasswordModal({ open, onOpenChange, onSwitchToSignIn }: Fo
               fill
               className="object-cover"
             />
-            <div className="relative z-10 flex flex-col justify-center items-center text-white p-8">
+            <div className="relative z-10 flex flex-col justify-center items-center text-gray-800 p-8">
               <div className="text-center">
                 <Mail className="h-16 w-16 mx-auto mb-4 opacity-90" />
                 <h2 className="text-3xl font-bold mb-4">Reset Password</h2>

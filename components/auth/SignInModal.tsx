@@ -63,7 +63,7 @@ export function SignInModal({ open, onOpenChange, onSwitchToSignUp, onSwitchToFo
       <DialogContent className="sm:max-w-4xl p-0 overflow-hidden">
         <div className="flex h-[600px]">
           {/* Left Side - Image */}
-          <div className="hidden md:flex md:w-1/2 bg-gradient-to-br from-brand-primary to-brand-secondary relative">
+          <div className="hidden md:flex md:w-1/2 bg-gradient-to-br from-blue-100 to-blue-200 relative">
             <div className="absolute inset-0 bg-black/20" />
             <Image
               src="https://images.pexels.com/photos/3394650/pexels-photo-3394650.jpeg?auto=compress&cs=tinysrgb&w=800"
@@ -71,7 +71,7 @@ export function SignInModal({ open, onOpenChange, onSwitchToSignUp, onSwitchToFo
               fill
               className="object-cover"
             />
-            <div className="relative z-10 flex flex-col justify-center items-center text-white p-8">
+            <div className="relative z-10 flex flex-col justify-center items-center text-gray-800 p-8">
               <div className="text-center">
                 <h2 className="text-3xl font-bold mb-4">Welcome Back!</h2>
                 <p className="text-lg opacity-90">
